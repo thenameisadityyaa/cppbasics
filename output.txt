@@ -1,23 +1,2 @@
-A
-d
-i
-t
-y
-a
- 
-b
-r
-o
- 
-s
-a
-h
-i
- 
-h
-a
-i
- 
-b
-r
-o
+Before print function call
+I am hero
