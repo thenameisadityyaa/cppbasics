@@ -3,36 +3,27 @@ using namespace std;
 
 int main()
 {
-    int grade;
-    cin >> grade;
-    if (grade >= 90)
+    int a, b, c;
+    cin >> a >> b >> c;
+
+    if (a > b && a > c)
     {
-        cout << "Grade A";
+        cout << "A";
     }
-    else if (grade >= 75)
+    else if (b > c)
     {
-        cout << "Grade B";
-    }
-    else if (grade >= 50)
-    {
-        cout << "Grade C";
-    }
-    else if (grade >= 35)
-    {
-        cout << "Grade D";
+        cout << "B";
     }
     else
     {
-        cout << "Fail";
+        cout << "C";
     }
     return 0;
 }
 
 /*
-Given the marks of a student, tell us the grade he is getting following the below rules
-- Grade A (>=90)
-- Grade B (>= 70 and < 90)
-- Grade C (>= 50 and < 70)
-- Grade D (>= 35 and < 50)
-- Fail (< 30)
+Given three intergers, a, b and c,
+print which of these integers is the largest,
+if two or more integers are equal and are the largest,
+print any of them.
 */
