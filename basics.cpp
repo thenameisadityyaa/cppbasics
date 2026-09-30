@@ -1,20 +1,14 @@
 #include <bits/stdc++.h>
-
 using namespace std;
 
 int main()
 {
-    // int num[5] = {1, 2, 3, 4, 5};
-    // for (int i = 0; i < 5; i++)
-    // {
-    //     cout << num[i] << endl;
-    // }
+    string str = "Aditya bro sahi hai bro";
+    // cout << str.size();
 
-    int num[5];
-    for (int i = 0; i < 5; i++)
+    for (int i = 0; i < str.length(); i++)
     {
-        cin >> num[i];
-        cout << num[i] << endl;
+        cout << str[i] << endl;
     }
     return 0;
 }
