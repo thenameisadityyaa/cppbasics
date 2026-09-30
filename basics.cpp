@@ -3,27 +3,38 @@ using namespace std;
 
 int main()
 {
-    int a, b, c;
-    cin >> a >> b >> c;
-
-    if (a > b && a > c)
+    int day;
+    cin >> day;
+    switch (day)
     {
-        cout << "A";
-    }
-    else if (b > c)
-    {
-        cout << "B";
-    }
-    else
-    {
-        cout << "C";
+    case 1:
+        cout << "Monday";
+        break;
+    case 2:
+        cout << "Tuesday";
+        break;
+    case 3:
+        cout << "Wednesday";
+        break;
+    case 4:
+        cout << "Thursday";
+        break;
+    case 5:
+        cout << "Friday";
+        break;
+    case 6:
+        cout << "Saturday";
+        break;
+    default:
+        cout << "Sunday";
+        break;
+        break;
     }
     return 0;
 }
 
 /*
-Given three intergers, a, b and c,
-print which of these integers is the largest,
-if two or more integers are equal and are the largest,
-print any of them.
+Switch Case:
+Given the day number print which day it is of the week,
+assume week starts from Monday and ends on Sunday.
 */
