@@ -3,13 +3,14 @@ using namespace std;
 
 int main()
 {
-    int i = 5;
+    int i = 60;
 
-    while (i <= 10)
+    do
     {
         cout << i << endl;
-        i++;
-    }
+        i = i + 5;
+    } while (i <= 100);
+
     return 0;
 }
 
