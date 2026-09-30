@@ -3,16 +3,14 @@ using namespace std;
 
 int main()
 {
-    int num;
-    for (int i = 0; i < 10; i++)
+    for (int i = 5; i <= 100; i = i + 5)
     {
-        cin >> num;
-        cout << num << endl;
+        cout << i << endl;
     }
     return 0;
 }
 
 /*
 For loop:
-Take input of 10 numbers and print it.
+print the table of 5
 */
