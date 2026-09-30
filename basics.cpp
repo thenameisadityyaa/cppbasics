@@ -3,24 +3,36 @@ using namespace std;
 
 int main()
 {
-    int age;
-    cin >> age;
-    if (age >= 18)
+    int grade;
+    cin >> grade;
+    if (grade >= 90)
     {
-        cout << "Adult!";
+        cout << "Grade A";
     }
-    else if (age < 18 && age >= 10)
+    else if (grade >= 75 && grade < 90)
     {
-        cout << "Teen";
+        cout << "Grade B";
+    }
+    else if (grade >= 50 && grade < 70)
+    {
+        cout << "Grade c";
+    }
+    else if (grade >= 35 && grade < 50)
+    {
+        cout << "Grade D";
     }
     else
     {
-        cout << "Child";
+        cout << "Fail";
     }
     return 0;
 }
 
-// Given an integer age
-// - if age >= 18 , print "Adult"
-// - if age < 18 and age >= 10, print "Teen"
-// if age < 10, print "Child"
+/*
+Given the marks of a student, tell us the grade he is getting following the below rules
+- Grade A (>=90)
+- Grade B (>= 70 and < 90)
+- Grade C (>= 50 and < 70)
+- Grade D (>= 35 and < 50)
+- Fail (< 30)
+*/
