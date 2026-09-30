@@ -1,0 +1,24 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "C++ Run",
+            "type": "shell",
+            "command": "g++ -std=c++17 \"${file}\" -o \"${workspaceFolder}/program\" && if [ -f \"${workspaceFolder}/input.txt\" ]; then \"${workspaceFolder}/program\" < \"${workspaceFolder}/input.txt\" > \"${workspaceFolder}/output.txt\"; else \"${workspaceFolder}/program\" > \"${workspaceFolder}/output.txt\"; fi",
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "never",
+                "panel": "shared"
+            }
+        }
+    ]
+}
