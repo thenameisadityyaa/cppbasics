@@ -1,2 +1,2 @@
-Before print function call
-I am hero
+7
+6
