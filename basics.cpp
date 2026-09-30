@@ -3,14 +3,16 @@ using namespace std;
 
 int main()
 {
-    for (int i = 5; i <= 100; i = i + 5)
+    int i = 5;
+
+    while (i <= 10)
     {
         cout << i << endl;
+        i++;
     }
     return 0;
 }
 
 /*
-For loop:
-print the table of 5
+while loop:
 */
