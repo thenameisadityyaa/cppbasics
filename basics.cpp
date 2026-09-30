@@ -9,15 +9,15 @@ int main()
     {
         cout << "Grade A";
     }
-    else if (grade >= 75 && grade < 90)
+    else if (grade >= 75)
     {
         cout << "Grade B";
     }
-    else if (grade >= 50 && grade < 70)
+    else if (grade >= 50)
     {
-        cout << "Grade c";
+        cout << "Grade C";
     }
-    else if (grade >= 35 && grade < 50)
+    else if (grade >= 35)
     {
         cout << "Grade D";
     }
